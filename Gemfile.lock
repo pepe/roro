@@ -1,0 +1,124 @@
+GIT
+  remote: https://github.com/rom-rb/rom-sql.git
+  revision: 6efcaff03b439cef07a4c2ccf9445a73f09084e9
+  specs:
+    rom-sql (0.3.2)
+      equalizer (~> 0.0, >= 0.0.9)
+      rom (~> 0.5, >= 0.5.0)
+      sequel (~> 4.18)
+
+GIT
+  remote: https://github.com/rom-rb/rom.git
+  revision: 8522ca66add9eedbab0ecc2a849d314112cfb8a6
+  specs:
+    rom (0.5.0)
+      addressable (~> 2.3)
+      charlatan (~> 0.1, >= 0.1)
+      concord (~> 0.1, >= 0.1.4)
+      descendants_tracker (~> 0.0, >= 0.0.4)
+      equalizer (~> 0.0, >= 0.0.9)
+      inflecto (~> 0.0, >= 0.0.2)
+      thread_safe (~> 0.3)
+      transproc (~> 0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    abstract_type (0.0.7)
+    adamantium (0.2.0)
+      ice_nine (~> 0.11.0)
+      memoizable (~> 0.4.0)
+    addressable (2.3.6)
+    anima (0.2.0)
+      abstract_type (~> 0.0.7)
+      adamantium (~> 0.1)
+      equalizer (~> 0.0.8)
+    capybara (2.4.4)
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      xpath (~> 2.0)
+    celluloid (0.16.0)
+      timers (~> 4.0.0)
+    charlatan (0.1.0)
+    clap (1.0.0)
+    concord (0.1.5)
+      adamantium (~> 0.2.0)
+      equalizer (~> 0.0.9)
+    daemons (1.1.9)
+    descendants_tracker (0.0.4)
+      thread_safe (~> 0.3, >= 0.3.1)
+    diff-lcs (1.2.5)
+    equalizer (0.0.9)
+    eventmachine (1.0.4)
+    ffi (1.9.6)
+    haml (4.0.6)
+      tilt
+    hitimes (1.2.2)
+    ice_nine (0.11.1)
+    inflecto (0.0.2)
+    listen (2.8.5)
+      celluloid (>= 0.15.2)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+    memoizable (0.4.2)
+      thread_safe (~> 0.3, >= 0.3.1)
+    mime-types (2.4.3)
+    mini_portile (0.6.2)
+    nokogiri (1.6.6.2)
+      mini_portile (~> 0.6.0)
+    rack (1.6.0)
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rb-fsevent (0.9.4)
+    rb-inotify (0.9.5)
+      ffi (>= 0.5.0)
+    rerun-cj (0.10.1)
+      listen (~> 2.7, >= 2.7.9)
+    roda (1.3.0)
+      rack
+    roda-bin (0.1.7)
+      clap
+      rerun-cj
+      roda
+      thin
+    rspec (3.1.0)
+      rspec-core (~> 3.1.0)
+      rspec-expectations (~> 3.1.0)
+      rspec-mocks (~> 3.1.0)
+    rspec-core (3.1.7)
+      rspec-support (~> 3.1.0)
+    rspec-expectations (3.1.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.1.0)
+    rspec-mocks (3.1.3)
+      rspec-support (~> 3.1.0)
+    rspec-support (3.1.2)
+    sequel (4.18.0)
+    sqlite3 (1.3.10)
+    thin (1.6.3)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0)
+      rack (~> 1.0)
+    thread_safe (0.3.4)
+    tilt (2.0.1)
+    timers (4.0.1)
+      hitimes
+    transproc (0.1.0)
+    xpath (2.0.0)
+      nokogiri (~> 1.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  anima
+  capybara
+  haml
+  roda
+  roda-bin
+  rom!
+  rom-sql!
+  rspec
+  sqlite3
