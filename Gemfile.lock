@@ -53,8 +53,6 @@ GEM
     equalizer (0.0.9)
     eventmachine (1.0.4)
     ffi (1.9.6)
-    haml (4.0.6)
-      tilt
     hitimes (1.2.2)
     ice_nine (0.11.1)
     inflecto (0.0.2)
@@ -96,7 +94,11 @@ GEM
       rspec-support (~> 3.1.0)
     rspec-support (3.1.2)
     sequel (4.18.0)
+    slim (3.0.2)
+      temple (~> 0.7.3)
+      tilt (>= 1.3.3, < 2.1)
     sqlite3 (1.3.10)
+    temple (0.7.5)
     thin (1.6.3)
       daemons (~> 1.0, >= 1.0.9)
       eventmachine (~> 1.0)
@@ -115,10 +117,10 @@ PLATFORMS
 DEPENDENCIES
   anima
   capybara
-  haml
   roda
   roda-bin
   rom!
   rom-sql!
   rspec
+  slim
   sqlite3

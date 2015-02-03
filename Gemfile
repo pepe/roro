@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'roda'
 gem 'roda-bin'
-gem 'haml'
+gem 'slim'
 gem 'rom', git: 'https://github.com/rom-rb/rom.git'
 gem 'rom-sql', git: 'https://github.com/rom-rb/rom-sql.git'
 gem 'sqlite3'

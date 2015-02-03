@@ -1,6 +1,6 @@
 module App
   class Main < Roda
-    plugin :render, engine: 'haml'
+    plugin :render, engine: 'slim'
 
     include Domain::Store
 

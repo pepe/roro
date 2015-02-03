@@ -1,0 +1,9 @@
+html
+  head
+    title Beans
+  body
+    h1 Last three beans
+    ul
+      - beans.each do |bean|
+        li= bean.name
+

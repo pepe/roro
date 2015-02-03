@@ -1,4 +1,3 @@
-
 module Domain
   module Store
     def init_store(env='development')
