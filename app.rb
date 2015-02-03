@@ -1,16 +1,5 @@
 require 'roda'
+
 require_relative 'domain'
+require_relative 'app/main'
 
-module App
-  class Main < Roda
-    plugin :render, engine: 'haml'
-
-    include Domain
-
-    route do |r|
-      r.root do
-        render 'index', locals: { beans: store.read(:beans).main_page }
-      end
-    end
-  end
-end

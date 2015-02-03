@@ -1,7 +1,7 @@
 require 'domain_spec_helper'
 
-RSpec.describe Domain do
-  include Domain
+RSpec.describe Domain::Store do
+  include Domain::Store
 
   before do
     (1..4).each do |i|

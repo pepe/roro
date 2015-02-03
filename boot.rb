@@ -1,6 +1,6 @@
 require_relative 'app'
 
-include Domain
+include Domain::Store
 init_store
 
 # Some lousy exception driven stuff

@@ -11,5 +11,5 @@ def app
   App::Main.app
 end
 
-include Domain
+include Domain::Store
 init_store(:test) unless store
