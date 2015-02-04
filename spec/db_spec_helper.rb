@@ -6,5 +6,9 @@ RSpec.configure do |config|
       String :name
       String :position
     end
+
+    (1..4).each do |i|
+      store.command(:beans).try { create(name: "#{i}. bean", position: "#{i} #{i}") }
+    end
   end
 end
