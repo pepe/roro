@@ -1,6 +1,6 @@
-# Main routing app
-# All subapplications are also mounted here
 module App
+  # Main routing app
+  # All subapplications are also mounted here
   class Main < Roda
     plugin :render, engine: 'slim'
 

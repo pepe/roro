@@ -31,7 +31,8 @@ RSpec.describe Domain::Store do
     let(:by_id) { store.read(:beans).by_id(1).first }
 
     it 'returns first bean' do
-      expect(by_id).to eq Domain::Bean.new(id: 1, name: '1. bean', position: '1 1')
+      expect(by_id).to eq Domain::Bean.new(id: 1, name: '1. bean',
+                                           position: '1 1')
     end
   end
 end

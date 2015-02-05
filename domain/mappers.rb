@@ -3,5 +3,3 @@ ROM.mappers do
     model Domain::Bean
   end
 end
-
-

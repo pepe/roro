@@ -11,5 +11,3 @@ ROM.commands(:beans) do
     result :one
   end
 end
-
-
