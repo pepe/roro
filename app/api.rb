@@ -16,8 +16,8 @@ module App
           end
 
           r.is :id do |id|
-            # FIXME: investigate why it is no working without to_json
-            store.read(:beans).by_id(id).first.to_json
+            # FIXME: investigate why it is no working without to_h
+            store.read(:beans).by_id(id).first.to_h
           end
         end
 
