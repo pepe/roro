@@ -1,6 +1,6 @@
 require 'rack/test'
 require_relative 'db_spec_helper'
-require_relative '../app'
+require_relative '../service'
 
 RSpec.configure do |config|
   config.include Rack::Test::Methods
